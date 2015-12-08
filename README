@@ -1,0 +1,4 @@
+ 调试
+ _ = "breakpoint"
+ godebug run -instrument=ginDemo/controller .\server.go
+ //$ godebug run -instrument=pkg1,pkg2,pkg3 gofiles... [arguments...]

@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>Hi</title>
+	<script src='/public/foo.js'></script>
+</head>
+<body>
+	<h2>Hello {{.key}}!</h2>
+	{{range $k, $v := .}} {{$k}} => {{$v}} {{end}}
+	{{"output"}}
+
+	{{`"output"`}}
+	{{printf "%q" "output"}}
+</body>
+</html>
